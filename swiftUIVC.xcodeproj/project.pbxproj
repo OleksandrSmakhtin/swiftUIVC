@@ -11,6 +11,8 @@
 		44812AF82A88D2D20019104F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44812AF72A88D2D20019104F /* ContentView.swift */; };
 		44812AFA2A88D2D30019104F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44812AF92A88D2D30019104F /* Assets.xcassets */; };
 		44812AFD2A88D2D30019104F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44812AFC2A88D2D30019104F /* Preview Assets.xcassets */; };
+		44812B042A88D3B60019104F /* MyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44812B032A88D3B60019104F /* MyVC.swift */; };
+		44812B072A88E45E0019104F /* MyTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44812B062A88E45E0019104F /* MyTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		44812AF72A88D2D20019104F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44812AF92A88D2D30019104F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44812AFC2A88D2D30019104F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44812B032A88D3B60019104F /* MyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVC.swift; sourceTree = "<group>"; };
+		44812B062A88E45E0019104F /* MyTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		44812AF42A88D2D20019104F /* swiftUIVC */ = {
 			isa = PBXGroup;
 			children = (
+				44812B052A88E4300019104F /* Views */,
 				44812AF52A88D2D20019104F /* swiftUIVCApp.swift */,
 				44812AF72A88D2D20019104F /* ContentView.swift */,
+				44812B032A88D3B60019104F /* MyVC.swift */,
 				44812AF92A88D2D30019104F /* Assets.xcassets */,
 				44812AFB2A88D2D30019104F /* Preview Content */,
 			);
@@ -65,6 +71,14 @@
 				44812AFC2A88D2D30019104F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44812B052A88E4300019104F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44812B062A88E45E0019104F /* MyTableCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				44812AF82A88D2D20019104F /* ContentView.swift in Sources */,
+				44812B042A88D3B60019104F /* MyVC.swift in Sources */,
+				44812B072A88E45E0019104F /* MyTableCell.swift in Sources */,
 				44812AF62A88D2D20019104F /* swiftUIVCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
