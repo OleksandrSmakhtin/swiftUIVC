@@ -13,6 +13,9 @@
 		44812AFD2A88D2D30019104F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44812AFC2A88D2D30019104F /* Preview Assets.xcassets */; };
 		44812B042A88D3B60019104F /* MyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44812B032A88D3B60019104F /* MyVC.swift */; };
 		44812B072A88E45E0019104F /* MyTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44812B062A88E45E0019104F /* MyTableCell.swift */; };
+		44812B0C2A935EDE0019104F /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44812B0B2A935EDE0019104F /* FirstVC.swift */; };
+		44812B0E2A935F120019104F /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44812B0D2A935F120019104F /* SecondVC.swift */; };
+		44812B112A935F8E0019104F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44812B102A935F8E0019104F /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		44812AFC2A88D2D30019104F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44812B032A88D3B60019104F /* MyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVC.swift; sourceTree = "<group>"; };
 		44812B062A88E45E0019104F /* MyTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableCell.swift; sourceTree = "<group>"; };
+		44812B0B2A935EDE0019104F /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		44812B0D2A935F120019104F /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		44812B102A935F8E0019104F /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,8 @@
 		44812AF42A88D2D20019104F /* swiftUIVC */ = {
 			isa = PBXGroup;
 			children = (
+				44812B0F2A935F760019104F /* Managers */,
+				44812B0A2A935EC20019104F /* Controllers */,
 				44812B052A88E4300019104F /* Views */,
 				44812AF52A88D2D20019104F /* swiftUIVCApp.swift */,
 				44812AF72A88D2D20019104F /* ContentView.swift */,
@@ -79,6 +87,23 @@
 				44812B062A88E45E0019104F /* MyTableCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		44812B0A2A935EC20019104F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44812B0B2A935EDE0019104F /* FirstVC.swift */,
+				44812B0D2A935F120019104F /* SecondVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		44812B0F2A935F760019104F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				44812B102A935F8E0019104F /* NotificationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +179,9 @@
 				44812AF82A88D2D20019104F /* ContentView.swift in Sources */,
 				44812B042A88D3B60019104F /* MyVC.swift in Sources */,
 				44812B072A88E45E0019104F /* MyTableCell.swift in Sources */,
+				44812B0C2A935EDE0019104F /* FirstVC.swift in Sources */,
+				44812B112A935F8E0019104F /* NotificationManager.swift in Sources */,
+				44812B0E2A935F120019104F /* SecondVC.swift in Sources */,
 				44812AF62A88D2D20019104F /* swiftUIVCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
